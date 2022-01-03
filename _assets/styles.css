@@ -1,10 +1,33 @@
 body {
-  background-color: red;
-  font-family: sharpee;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(200, 200, 200);
 }
 
+.popup {
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
 
-.logo {
-  position: fixed;
+  background-color: white;
 
+  display: flex;
 }
+
+.cat-pic {
+  object-fit: cover;
+  width: 50%;
+}
+
+.right-side {
+  padding: 5%;
+}
+
+.close {
+ 
+ right: 0;
+}
+
+.info {
+  padding: 5%;
+}
+
