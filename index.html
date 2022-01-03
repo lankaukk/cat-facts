@@ -11,19 +11,22 @@
 
 <body>
 
- <div class="popup"> 
+ <div id="popup"> 
 	 <img src="img/cat-img.jpeg" alt="cat" class="cat-pic">
 	 <div class="right-side">
-		<h1 class="close">X</h1>
+
+		<p class="close" onClick="closePopUp()">X</p>
+
 		<div class="info">
 			<h1>Cat Facts</h1>
 
 			<ul id="factsList">
 
 			</ul>
-			
-			<button>Get Facts</button>
+
+			<button id="fetchdata" onClick="getData()">Get Details</button>
 		</div>
+
 	</div>
  </div>
 

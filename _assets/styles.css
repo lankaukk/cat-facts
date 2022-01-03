@@ -3,7 +3,7 @@ body {
   background-color: rgb(200, 200, 200);
 }
 
-.popup {
+#popup {
   margin: auto;
   height: 80vh;
   width: 80vw;
@@ -11,6 +11,7 @@ body {
   background-color: white;
 
   display: flex;
+  opacity: 0;
 }
 
 .cat-pic {
@@ -20,6 +21,7 @@ body {
 
 .right-side {
   padding: 5%;
+  width: 100%;
 }
 
 .close {
